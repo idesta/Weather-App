@@ -1,1 +1,10 @@
+version: "3.8"
+
+services:
+  web:
+    image: weather-app:latest
+    container_name: weather_app
+    restart: always
+    ports:
+      - "8081:80"
 
