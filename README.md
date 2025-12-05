@@ -7,6 +7,11 @@
   - sudo docker build -t weather-app:latest .
 - Run the docker image
   - sudo docker run -d --name weather_app -p 8081:80 weather-app:latest
+  ```or```
+  - You can use the docker compose command
+    ```sudo docker compose up -d```
+
+
 
 
 
